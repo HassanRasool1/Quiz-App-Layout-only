@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz application</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<!--   Quiz button-->
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+        <!--info section-->
+        <div class="info_box">
+            <div class="info_title">
+                <span>Rules</span>
+            </div>
+        <div class="info_list">
+            <div class="info"><b>1.Questions:</b> Questions should be clear and concise, covering relevant topics. Avoid ambiguity.</div>
+                <div class="info"><b>2.Time Limit:</b> This quiz have a time limit for completion.<span>15 seconds</span> is the time limit</div>
+                    <div class="info"><b>3.Scoring:</b> Understand the scoring system—each question might have different point values. Correct answers usually earn points, while incorrect     answers might result in deductions or no points.</div>
+                 <div class="info"><b>4.Honesty:</b> Answer honestly and avoid cheating to get accurate results.</div>
+            <div class="info"><b>5.Review:</b> If allowed, review your answers before submitting to catch any mistakes.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="Restart">Restart Quiz </button>
+        </div>
+    </div>
+        <!--quiz box-->
+            <div class="quiz_box">
+                <header>
+                  <div class="title">Hassan's Quiz App</div>
+                   <div class="timer">
+                    <div class="timer_text">Time Left</div>
+                    <div class="timer_sec">15</div>
+                    </div>
+                </header>
+                <section>
+                    <div class="que_text">
+                        <span>What does Pakistan means?</span>
+                    </div>
+                    <div class="option_list">
+                       <div class="option">
+                        <span>Faltu Country</span>
+                        <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                    
+                    <div class="option">
+                        <span>Achi Country</span>
+                        <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                   
+                       <div class="option">
+                            <span>Buhat achi Country</span>
+                        <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                       
+                    <div class="option">
+                        <span>Behtreen  Country</span>
+                            <div class="icon tick"><i class="fa-solid fa-check"></i></div>
+                    </div>
+        
+                    </div>
+                </section> 
+                        
+                        <!--Footer-->
+                        <footer>
+                           <div class="Total_que">
+                            <span><p>2</p>of<p>5</p>Questions</span>
+                            </div>
+                            <button class="next_btn">Next Question</button>
+                        </footer>
+                </div>
+                        <!--Result-->
+                        <div class="result_box">
+                            <div class="icon">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <div class="complete_text">Quiz Completed</div>
+                            <div class="score_text">
+                                <span>and sorry, you got only <p>2</p> out of <p>5</p></span>
+                            </div>
+                            <div class="buttons">
+                                <button class="Restart">Restar Quiz</button>
+                                <button class="quit">Quit</button>
+                            </div>
+                        </div>
+                
+</body>
+</html>
